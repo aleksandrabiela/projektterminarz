@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="okno" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="terminarz.TerminyController">
+   <children>
+      <Label layoutX="255.0" layoutY="45.0" text="DODAJ/EDYTUJ" />
+      <Label layoutX="146.0" layoutY="105.0" text="DATA" />
+      <Label layoutX="146.0" layoutY="183.0" text="OSOBA" />
+      <TextField layoutX="264.0" layoutY="101.0" />
+      <ComboBox layoutX="263.0" layoutY="179.0" prefWidth="150.0" />
+      <Button layoutX="150.0" layoutY="294.0" mnemonicParsing="false" onAction="#zapisz" text="ZAPISZ" />
+      <Button layoutX="324.0" layoutY="294.0" mnemonicParsing="false" onAction="#anuluj" text="ANULUJ" />
+   </children>
+</AnchorPane>

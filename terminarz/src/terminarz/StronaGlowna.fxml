@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="okno" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="terminarz.StronaGlownaController">
+   <children>
+      <ScrollPane prefHeight="270.0" prefWidth="327.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="273.0" AnchorPane.topAnchor="130.0">
+        <content>
+          <AnchorPane fx:id="lewy" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Label layoutX="268.0" layoutY="21.0" text="TERMINARZ" />
+      <Label fx:id="naglowek" layoutX="40.0" layoutY="47.0" text="JESTEŚ ZALOGOWANY JAKO: " />
+      <Label layoutX="46.0" layoutY="88.0" text="KONTAKTY" />
+      <Label layoutX="376.0" layoutY="88.0" text="TERMINY" />
+      <Button layoutX="136.0" layoutY="84.0" mnemonicParsing="false" onAction="#kontakt" text="DODAJ KONTAKT" />
+      <Button layoutX="455.0" layoutY="84.0" mnemonicParsing="false" onAction="#termin" text="DODAJ TERMIN" />
+      <Button layoutX="505.0" layoutY="17.0" mnemonicParsing="false" onAction="#wyloguj" text="WYLOGUJ" />
+      <ScrollPane layoutX="326.0" layoutY="130.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="326.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
+        <content>
+          <AnchorPane fx:id="prawy" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
