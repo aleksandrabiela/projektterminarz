@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane id="AnchorPane" fx:id="okno" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="terminarz.TerminyController">
+<AnchorPane id="AnchorPane" fx:id="okno" prefHeight="265.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="terminarz.TerminyController">
    <children>
-      <Label layoutX="255.0" layoutY="45.0" text="DODAJ/EDYTUJ" />
-      <Label layoutX="146.0" layoutY="105.0" text="DATA" />
-      <Label layoutX="146.0" layoutY="183.0" text="OSOBA" />
-      <TextField layoutX="264.0" layoutY="101.0" />
-      <ComboBox layoutX="263.0" layoutY="179.0" prefWidth="150.0" />
-      <Button layoutX="150.0" layoutY="294.0" mnemonicParsing="false" onAction="#zapisz" text="ZAPISZ" />
-      <Button layoutX="324.0" layoutY="294.0" mnemonicParsing="false" onAction="#anuluj" text="ANULUJ" />
+      <Label fx:id="naglowek" layoutX="248.0" layoutY="28.0" text="Dodawanie terminu" />
+      <TextField fx:id="dzien" layoutX="226.0" layoutY="80.0" />
+      <Label layoutX="182.0" layoutY="84.0" text="Dzień:" />
+      <ComboBox fx:id="osoba" layoutX="226.0" layoutY="134.0" prefWidth="150.0" />
+      <Label layoutX="178.0" layoutY="138.0" text="Osoba:" />
+      <Button layoutX="215.0" layoutY="215.0" mnemonicParsing="false" onAction="#zapisz" text="Zapisz" />
+      <Button layoutX="326.0" layoutY="215.0" mnemonicParsing="false" onAction="#anuluj" text="Anuluj" />
    </children>
 </AnchorPane>

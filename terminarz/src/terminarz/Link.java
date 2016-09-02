@@ -13,6 +13,7 @@ import javafx.scene.control.Label;
  */
 public class Link extends Label {
     private Integer kontaktId;
+    private Integer terminId;
 
     /**
      * @return the kontaktId
@@ -26,5 +27,19 @@ public class Link extends Label {
      */
     public void setKontaktId(Integer kontaktId) {
         this.kontaktId = kontaktId;
+    }
+
+    /**
+     * @return the terminId
+     */
+    public Integer getTerminId() {
+        return terminId;
+    }
+
+    /**
+     * @param terminId the terminId to set
+     */
+    public void setTerminId(Integer terminId) {
+        this.terminId = terminId;
     }
 }
